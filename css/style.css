@@ -61,6 +61,7 @@ button {
   background-image: url("../img/back.png");
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .about h1 {
   font-size: 70px;
@@ -80,6 +81,14 @@ button {
 .about__info {
   max-width: 550px;
 }
+/* canvas */
+.orb-canvas {
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+}
+
 .features {
   background-color: #fff;
   padding: 115px 60px;
