@@ -16,7 +16,7 @@ class Bubble {
     }
     init() {
         this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
-        this.size = generateDecimalBetween(1, 20);
+        this.size = generateDecimalBetween(3, 17);
         this.alpha = generateDecimalBetween(5, 10)/10;
         this.translateX = generateDecimalBetween(0, this.canvasWidth);
         this.translateY = generateDecimalBetween(0, this.canvasHeight);
